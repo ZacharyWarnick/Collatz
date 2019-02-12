@@ -31,7 +31,7 @@ def collatz_eval(i, j):
 	j the end       of the range, inclusive
 	return the max cycle length of the range [i, j]
 	"""
-	knownValues = []
+	#knownValues = []
 
 	for n in range (i,j+1):
 		
@@ -45,7 +45,7 @@ def collatz_eval(i, j):
 			count += 2
 		
 		if count not in knownValues:
-			knownValues[n] = count
+			#knownValues[n] = count
 
 
 
