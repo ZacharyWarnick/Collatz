@@ -44,11 +44,6 @@ def collatz_eval(i, j):
 			i = (i + (i>>1) + 1)
 			count += 2
 		
-		if count not in knownValues:
-			#knownValues[n] = count
-
-
-
 	return 1
 
 # -------------
