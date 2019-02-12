@@ -1,53 +1,28 @@
-commit 3820fec040daef51591f7d711b775f16c41a306d
-Author: Fares Fraij <fares@cs.utexas.edu>
-Date:   Tue Feb 5 09:36:08 2019 -0600
+commit efd8b3ad34f5c3526b80365cf5ef6c3a529058d8
+Author: ZackerWins <jgalt@example.com>
+Date:   Mon Feb 11 21:40:44 2019 -0600
 
-    updating RunCollatz.py
+    second commit
 
-commit 69b826c94d4ae0f30f0268219339b927e7ff21f5
-Author: Fares Fraij <fares@cs.utexas.edu>
-Date:   Tue Feb 5 09:25:38 2019 -0600
+commit 5113ef200f5753d80532ae46128454cf8f08ff2d
+Merge: 09a532d 7908faf
+Author: Zachary Warnick <zawarnick1@gmail.com>
+Date:   Tue Feb 12 03:17:47 2019 +0000
 
-    upading RunCollatz.py by directly navigating python on the file
+    Merge branch 'dev' into 'master'
+    
+    first commit
+    
+    See merge request ZackerWins/collatz!1
 
-commit 0113ab2ddcc2d8b93be716e8c4f6c96253ef5e74
-Author: Fares Fraij <fares@cs.utexas.edu>
-Date:   Mon Feb 4 20:48:51 2019 -0600
-
-    updating RunCollatz.py to address stdin issue of <
-
-commit 53fe9d78a2327f36584fad77d1d8336b89ce72bd
-Author: Fares Fraij <fares@cs.utexas.edu>
-Date:   Tue Jan 29 22:14:19 2019 -0600
-
-    updating commands within some files and adding requirements-to-freeze.txt
-
-commit 148334d930ecb329e3883dcd33b93201c9c67995
-Author: Fares Fraij <fares@cs.utexas.edu>
-Date:   Tue Jan 29 21:58:08 2019 -0600
-
-    updating the software dependencies in requirements.txt
-
-commit bd78a99e03c07952fa0b91341d801e8607de209e
-Author: Fares Fraij <fares@cs.utexas.edu>
-Date:   Tue Jan 29 21:28:13 2019 -0600
-
-    updating RunCollatz by providing pydoc for Windows
-
-commit 7f2ead9de073eb09849346a0d6693094873a4412
-Author: Fares Fraij <fares@cs.utexas.edu>
-Date:   Wed Jan 23 20:56:06 2019 -0600
-
-    updating makefile to reflect new software versions
-
-commit dd566e29f5ac38d19a4768169ac6324390620478
-Author: Fares Fraij <fares@cs.utexas.edu>
-Date:   Wed Dec 19 11:10:22 2018 -0600
+commit 7908fafaff3de4b011bbb486fa1eb6df1631e384
+Author: Zack <zawarnick1@gmail.com>
+Date:   Mon Feb 11 11:48:03 2019 -0600
 
     first commit
 
-commit 2caac1ad8903b0a0ed5b33603652a319a6fbb00f
-Author: Fares Fraij <fares@utexas.edu>
-Date:   Wed Dec 19 16:44:15 2018 +0000
+commit 09a532d2ae6eed02cc517d3c38dbe8a33813bc78
+Author: Zachary Warnick <zawarnick1@gmail.com>
+Date:   Wed Jan 30 21:00:17 2019 +0000
 
     Initial commit
