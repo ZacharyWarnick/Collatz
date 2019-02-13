@@ -53,28 +53,30 @@ def cycle_calc(a,b):
 
 
 def collatz_eval(i, j):
-    
-    if (j - i) < 999:
-        return cycle_calc(i,j)
-    else:
-        maxLength = 0
+	if i > j:
+		i,j = j,i
 
-        startIdx = (i // 1000) + 1
-        endIdx = (j // 1000)
+	if (j - i) < 999:
+		return cycle_calc(i,j)
+	else:
+		maxLength = 0
 
-        lower = cycle_calc(i, ((i//1000)*1000)+1000)
-        higher = cycle_calc((j // 1000) * 1000, j)
+		startIdx = (i // 1000) + 1
+		endIdx = (j // 1000)
 
-        for n in range(startIdx,endIdx+1):
-            if cache[n] > maxLength:
-                maxLength = cache[n]
+		lower = cycle_calc(i, ((i//1000)*1000)+1000)
+		higher = cycle_calc((j // 1000) * 1000, j)
 
-        if lower > maxLength:
-            maxLength = lower
-        elif higher > maxLength:
-            maxLength = higher
+		for n in range(startIdx,endIdx+1):
+			if cache[n] > maxLength:
+				maxLength = cache[n]
 
-        return( maxLength)
+		if lower > maxLength:
+			maxLength = lower
+		elif higher > maxLength:
+			maxLength = higher
+
+		return( maxLength)
 
 # -------------
 # collatz_print
