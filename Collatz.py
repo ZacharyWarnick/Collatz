@@ -76,7 +76,7 @@ def collatz_eval(i, j):
 		elif higher > maxLength:
 			maxLength = higher
 
-		return( maxLength)
+		return (maxLength)
 
 # -------------
 # collatz_print
