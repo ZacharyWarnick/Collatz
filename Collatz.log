@@ -1,3 +1,9 @@
+commit a2f97ec4598e27959641c8c5ea9228199d5e9abb
+Author: ZackerWins <jgalt@example.com>
+Date:   Wed Feb 13 11:34:05 2019 -0600
+
+    update runCollatz and collatz.out
+
 commit 0267dc1263c49f98b39f878246ec3e88de05d837
 Author: ZackerWins <jgalt@example.com>
 Date:   Wed Feb 13 11:27:25 2019 -0600
