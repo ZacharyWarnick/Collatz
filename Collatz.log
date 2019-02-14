@@ -1,3 +1,28 @@
+commit 23937d3db90d783ab52de3546bb97c331571b1e7
+Author: ZackerWins <jgalt@example.com>
+Date:   Thu Feb 14 02:01:55 2019 -0600
+
+    extra char in runcollatz.in fixed
+
+commit e9628fdc8af50f780352107bc28dd187103b2336
+Merge: 18e0fce 5c57f8f
+Author: ZackerWins <jgalt@example.com>
+Date:   Thu Feb 14 01:59:11 2019 -0600
+
+    Merge branch 'master' of https://gitlab.com/ZackerWins/collatz
+
+commit 18e0fce8d1066639fc9b13220b21a577b65b887a
+Author: ZackerWins <jgalt@example.com>
+Date:   Thu Feb 14 01:58:37 2019 -0600
+
+    add acceptance tests
+
+commit 5c57f8f902672e6bb1a28b55d3e20ac59cdc5c15
+Author: Zachary Warnick <zawarnick1@gmail.com>
+Date:   Thu Feb 14 07:24:39 2019 +0000
+
+    Accidentally created
+
 commit 164b1de946858c6278f49bd0937aba2cd26690a5
 Author: ZackerWins <jgalt@example.com>
 Date:   Thu Feb 14 01:13:39 2019 -0600
