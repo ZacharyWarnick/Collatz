@@ -1,3 +1,21 @@
+commit 3368cb9c571c6e8d1d63f9ee6627c622dffee956
+Author: ZackerWins <zawarnick1@gmail.com>
+Date:   Thu Feb 14 17:59:43 2019 -0600
+
+    Zachary Warnick acceptance tests
+
+commit 27d6166397cda671c75d5c8244a93c557c4cecda
+Author: ZackerWins <jgalt@example.com>
+Date:   Thu Feb 14 02:34:09 2019 -0600
+
+    .tmp required to build on Gitlab CI cloud, can be removed later
+
+commit 806bb6f266eec419fea3cc178070f230e08d056d
+Author: ZackerWins <jgalt@example.com>
+Date:   Thu Feb 14 02:30:16 2019 -0600
+
+    fix for test cases, testcollatz.tmp now generating every time
+
 commit 23937d3db90d783ab52de3546bb97c331571b1e7
 Author: ZackerWins <jgalt@example.com>
 Date:   Thu Feb 14 02:01:55 2019 -0600
